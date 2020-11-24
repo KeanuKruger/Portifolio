@@ -1,0 +1,66 @@
+
+#head
+{
+    position: absolute;
+    z-index:45;
+    left: 10;
+    top: 20;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight:bold;
+    font-size:30;
+    font-family:Lucida Handwriting ;
+}
+#na
+{
+    position: absolute;
+    z-index:45;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-weight:bold;
+    
+}
+#backgroundimg
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+ul
+{
+    list-style: none;
+    margin:0;
+    padding:0;
+    color: black;
+    
+}
+ul li
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color:black;
+    opacity: .7;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+ul li a
+{
+    text-decoration: none;
+    color:white;
+    display: block;
+    font-family:Lucida Handwriting ;
+}
+ul li a:hover
+{
+    background-color: #9900ff
+}
